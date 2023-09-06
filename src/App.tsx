@@ -10,7 +10,7 @@ import { TCurrency, TFilterStops, TTicket } from "./utils/types";
 const allCurrencies: TCurrency[] = ["RUB", "USD", "EUR"];
 
 function App() {
-    const [ticketsData, setTicketsData] = useState<TTicket[]>(tickets);
+    const [ticketsData, setTicketsData] = useState<TTicket[]>(tickets.sort((a, b) => a.price - b.price));
     const [stops, setStops] = useState<number[]>([]);
     const [currency, setCurrency] = useState<TCurrency>("RUB");
     const [filterStops, setFilterStops] = useState<TFilterStops>("all");
