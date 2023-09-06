@@ -15,4 +15,4 @@ npm start
 Приложение доступно на http://localhost:3000
 
 
-### [Live Demo](https://damirios.github.io/todo_list/)
+### [Live Demo](https://damirios.github.io/idea_test/)
