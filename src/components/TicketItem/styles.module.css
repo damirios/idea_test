@@ -1,0 +1,90 @@
+.ticket {
+    display: flex;
+    background-color: #fff;
+    border-radius: 5px;
+    min-height: 180px;
+}
+
+.ticket:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+.purchase_block {
+    border-right: 1px solid rgba(220, 220, 220, 0.7);
+    flex: 0 0 230px;
+}
+
+.purchase_box {
+    height: 100%;
+    padding: 25px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.logo {
+    margin-bottom: 15px;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+    max-width: 100%;
+}
+.logo_image {
+    max-width: 100%;
+}
+
+.purchase_button {
+    background-color: rgb(255, 111, 0);
+    color: #fff;
+    border: 0;
+    border-radius: 8px;
+    padding: 10px;
+    font-size: 18px;
+    width: 100%;
+    cursor: pointer;
+    box-shadow: 1px 2px 3px #333;
+    transition: all 0.4s ease 0s;
+}
+.purchase_button:hover {
+    background-color: rgb(255, 142, 55);
+}
+
+.purchase_button:active {
+    position: relative;
+    top: 2px;
+    box-shadow: 1px 0px 3px #333;
+}
+
+.info_block {
+    flex: 1 1 auto;
+    display: flex;
+    align-items: start;
+    column-gap: 25px;
+    padding: 25px 20px;
+}
+
+.stops_count {
+    white-space: nowrap;
+    line-height: 170%;
+}
+
+.stops_count_icon {
+    width: 140%;
+    display: flex;
+    align-items: center;
+    column-gap: 4px;
+    position: relative;
+    left: -20%;
+}
+
+.stops_count_line {
+    height: 1px;
+    flex: 1 1 auto;
+    background-color: grey;
+    border-radius: 5px;
+}
+
+.stops_count_icon img {
+    flex: 0 0 20px;
+    max-width: 20px;
+}

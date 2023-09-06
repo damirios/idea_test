@@ -1,0 +1,15 @@
+.dest_point {
+    flex: 0 1 40%;
+    text-align: center;
+}
+
+.time {
+    font-size: 40px;
+    line-height: 120%;
+    color: rgb(67, 67, 67);
+}
+
+.name {
+    font-size: 12px;
+    font-weight: 700;
+}
