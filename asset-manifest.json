@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/idea_test/static/css/main.0ca0d716.css",
+    "main.js": "/idea_test/static/js/main.fc772c5b.js",
+    "static/media/turkish_airlines_logo.png": "/idea_test/static/media/turkish_airlines_logo.d87f52857d329bce1543.png",
+    "index.html": "/idea_test/index.html",
+    "static/media/airplane_icon.svg": "/idea_test/static/media/airplane_icon.cb656827941a4932d0f69d03a2919d38.svg",
+    "main.0ca0d716.css.map": "/idea_test/static/css/main.0ca0d716.css.map",
+    "main.fc772c5b.js.map": "/idea_test/static/js/main.fc772c5b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0ca0d716.css",
+    "static/js/main.fc772c5b.js"
+  ]
+}
